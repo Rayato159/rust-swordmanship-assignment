@@ -18,7 +18,6 @@ fn main() {
         });
     }
 
-    // In the video, I was wrong, No -1 required before 0..loots.len()
     for _ in 0..loots.len() {
         let loot = receiver.recv().unwrap();
         crabby_gold_coin += loot;
